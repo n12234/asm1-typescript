@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+#profile {
+  max-width: 300px;
+  margin: 0 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.face{
+  position: absolute;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+  top: 160px;
+  border-radius: 100%;
+}
+
+.face1{
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#profile h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#profile p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#languages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#languages li {
+  margin: 5px 0;
+}
