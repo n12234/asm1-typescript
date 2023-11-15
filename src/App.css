@@ -5,7 +5,7 @@ body {
 
 #profile {
   max-width: 300px;
-  margin: 0 200px;
+  margin: auto;
   text-align: center;
   background-color: #fff;
   border: 1px solid gray;
@@ -15,10 +15,10 @@ body {
 
 .face{
   position: absolute;
-  left: 300px;
+  left: 590px;
   width: 100px;
   height: 100px;
-  top: 160px;
+  top: 82px;
   border-radius: 100%;
 }
 
