@@ -1,8 +1,19 @@
 // import React from 'react';
-import { ProductType } from '../../types/product';
+
+type ProductRace = {
+  rate: number;
+  count: number;
+}
 
 type ProductCardPops = {
-    product: ProductType;
+    product: {
+      id: number;
+      title: string;
+      price: number;
+      image: string;
+      description: string;
+      rating: ProductRace;
+  };
 }
 
 const ProductCard = (props: ProductCardPops) => {
